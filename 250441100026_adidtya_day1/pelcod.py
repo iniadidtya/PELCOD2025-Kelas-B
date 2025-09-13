@@ -27,3 +27,5 @@ buah = input("Masukan buah favorit Anda:")
 print("Nama saya adalah " + nama + nama)
 print("Umur saya adalah " + umur + " tahun")
 print("buah favorit saya adalah " + buah)
+
+#tess
