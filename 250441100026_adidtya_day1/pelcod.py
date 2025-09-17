@@ -1,31 +1,24 @@
-# nama = "Muhammad Adidtya Putra Ramadhan"
-# nim = "250441100026"
-# semester = 1
+# Tugas Pelcod Kelas B
 
-# print("====BIODATA MAHASISWA====")
-# print("Hallo, nama saya"+ nama + "\n")
-# print(f"NIM saya : {nim}\n")
-# print("Saya berkuliah di semester : {}".format(semester))
+nilai_tugas = 85
+nilai_uts = 75
+nilai_uas = 90
 
-# a = 10
-# b = 5
-# c = a + b #Penjumlahan
-# d = a - b #Pengurangan
-# e = a * b #Perkalian
-# f = a / b #Pembagian
-# g = a % b #Sisa Bagi
-# print("Hasil Penjumlahan" , c)
-# print("Hasil Pengurangan" , d)
-# print("Hasil Perkalian" , e)
-# print("Hasil Pembagian" , f)
-# print("Hasil Sisa Bagi" , g)
+bobot_tugas = 0.30
+bobot_uts = 0.30
+bobot_uas = 0.40
 
-nama = input("Masukan nama Anda:")
-umur = input("Masukan umur Anda:")
-buah = input("Masukan buah favorit Anda:")
+nilai_akhir_tugas = nilai_tugas * bobot_tugas
+nilai_akhir_uts = nilai_uts * bobot_uts
+nilai_akhir_uas = nilai_uas * bobot_uas
 
-print("Nama saya adalah " + nama + nama)
-print("Umur saya adalah " + umur + " tahun")
-print("buah favorit saya adalah " + buah)
+total_nilai_akhir = nilai_akhir_tugas + nilai_akhir_uts + nilai_akhir_uas
 
-#tess
+print(f"--- Nilai yang  diperoleh ---\n"
+      f"Nilai Tugas : {nilai_tugas}\n"
+      f"Nilai UTS   : {nilai_uts}\n"
+      f"Nilai UAS   : {nilai_uas}\n\n"
+      f"Nilai akhir dari Tugas (30%) : {nilai_akhir_tugas}\n"
+      f"Nilai akhir dari UTS (30%)   : {nilai_akhir_uts}\n"
+      f"Nilai akhir dari UAS (40%)   : {nilai_akhir_uas}\n\n"
+      f"Total Nilai Akhir Kamu : {total_nilai_akhir}")
